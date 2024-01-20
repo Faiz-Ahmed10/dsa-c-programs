@@ -35,10 +35,10 @@ int main(){
     int pos = binarySearch(arr, size, key);
 
     if(pos == -1) {
-        printf("key element %d not found", key);
+        printf("key element %d not found\n", key);
     }
     else {
-        printf("key element %d found at postion %d", key, pos+1);
+        printf("key element %d found at postion %d\n", key, pos+1);
     }
     
     return 0;
